@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['email_sub'];
 $message = $_POST['message'];
 
-$email_from = 'rsftutorials.academy';
+$email_from = 'noreply@rsftutorials.academy';
 $email_subject = 'New Form Submission';
 $email_body = "User Name: $name.\n".
               "User Email: $visitor_email.\n".
