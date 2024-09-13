@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Nanum+Gothic:wght@400;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/rsf_logo_enhanced.jpg" alt="School Logo">
+            </div>
+            <nav>
+                <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="text-box">
+            <h1>About Us</h1>
+        </div>
+    </section>
+    <section class="About-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Top-Rated Tutoring Excellence in Soweto</h1>
+                <p>RSF Tutorials is an independent, non-government and non-profitable social organization established by a
+                    Group of like-minded youths with experience in different sectors to promote youth capacity development,
+                    Offer educational services (tutoring) and provide awareness to promote social skills, life skills and also
+                    provide opportunities to youth. RSF Tutorials is an academic reinforcement intervention programme for grade 1 to 12. The programme pride’s itself in working with schools in developing a world class learner who will serve the nation with excellence.
+                </p>
+                <a href="index.html" class="hero-btn blue-btn">Explore Now</a>
+
+            </div>
+            <div class="about-col">
+                <img src="images/gallery22.jpeg" alt="">
+            </div>
+            
+        </div>
+        
+    </section>
+
+    <!--------Foooter-->
+    <section>
+        <section class="footer">
+            <h4>About us</h4>
+            <p>RSF is a Christian-based academy, and our name stands for "The Righteous Shall Live by Faith." This means that those who follow God's teachings and trust in His promises will live a life of faith and receive spiritual growth and eternal salvation. While we welcome and respect people of all religions, RSF is proudly Black-owned and recognized as a Level 1 contributor under the B-BBEE system.</p>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    
+                </div>
+                <div>
+                    <p>Whispers of the unknown <i class="fa-solid fa-block-question"></i> <br>  <i class="fa-solid fa-block-question"> Kraya007 was here
+                    </i></p>
+                </div>
+        </section>
+    </section>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('nav-links');
+            if (navLinks.style.display === 'block') {
+                navLinks.style.display = 'none';
+            } else {
+                navLinks.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>

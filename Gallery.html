@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Nanum+Gothic:wght@400;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/rsf_logo_enhanced.jpg" alt="School Logo">
+            </div>
+            <nav>
+                <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="text-box">
+            <h1>Our Gallery</h1>
+        </div>
+    </section>
+    <section>
+        <div class="full-img" id="fullImgBox">
+            <img src="images/teacher1.jpg" id="fullImg">
+            <span onclick="closeFullImg()">X</span>
+            
+        </div>
+        <div class="img-gallery">
+            <img src="images/teacher1.jpg" onclick="openFullImg(this.src)"> 
+            <img src="images/teacher2.jpg" onclick="openFullImg(this.src)">
+            <img src="images/teacher3.jpg" onclick="openFullImg(this.src)">
+            <img src="images/teacher4.jpg" onclick="openFullImg(this.src)">
+            <img src="images/tteacher5.jpg" onclick="openFullImg(this.src)">
+            <img src="images/mudau.jpeg" onclick="openFullImg(this.src)">
+            <img src="images/teacher6.jpg" onclick="openFullImg(this.src)">
+            <img src="images/teacher7.jpg" onclick="openFullImg(this.src)">
+            <img src="images/teacher8.jpg" onclick="openFullImg(this.src)">
+            <img src="images/teacher9_needing.jpg" onclick="openFullImg(this.src)">
+            <img src="images/teacher10 needing.jpg" onclick="openFullImg(this.src)">
+            <img src="images/teacher11.jpg" onclick="openFullImg(this.src)">
+            <img src="images/zubu.jpeg" onclick="openFullImg(this.src)">
+            <img src="images/teacher13.jpg" onclick="openFullImg(this.src)">
+            <img src="images/teacher14.jpg" onclick="openFullImg(this.src)">
+            <img src="images/teacher15.jpg" onclick="openFullImg(this.src)">
+            <img src="images/teacher16.jpg" onclick="openFullImg(this.src)">
+            <img src="images/teacher17.jpg" onclick="openFullImg(this.src)">
+            <img src="images/teacher18.jpg" onclick="openFullImg(this.src)">
+            <img src="images/teacher19.jpg" onclick="openFullImg(this.src)">
+            <img src="images/teacher20.jpg" onclick="openFullImg(this.src)">
+            <img src="images/teacher21.jpeg" onclick="openFullImg(this.src)">
+            <img src="images/gallery1.jpg" onclick="openFullImg(this.src)">
+            <img src="images/gallery2.jpg" onclick="openFullImg(this.src)">
+            <img src="images/gallery3.jpg" onclick="openFullImg(this.src)">
+            <img src="images/gallery4.jpg" onclick="openFullImg(this.src)">
+            <img src="images/gallery5.jpeg" onclick="openFullImg(this.src)">
+            <img src="images/gallery6.jpeg" onclick="openFullImg(this.src)">
+            <img src="images/gallery7.jpeg" onclick="openFullImg(this.src)">
+            <img src="images/gallery9.jpeg" onclick="openFullImg(this.src)">
+            <img src="images/gallery10.jpeg" onclick="openFullImg(this.src)">
+            <img src="images/ggallery11.jpeg" onclick="openFullImg(this.src)">
+            <img src="images/gallery12.jpeg" onclick="openFullImg(this.src)">
+            <img src="images/gallery20.jpeg" onclick="openFullImg(this.src)">
+            <img src="images/gallery21.jpeg" onclick="openFullImg(this.src)">
+            <img src="images/gallery22.jpeg" onclick="openFullImg(this.src)">
+            <img src="images/wards1.jpeg" onclick="openFullImg(this.src)">
+            <img src="images/wards3.jpeg" onclick="openFullImg(this.src)">
+            <img src="images/wards4.jpeg" onclick="openFullImg(this.src)">
+            <img src="images/wards5.jpeg" onclick="openFullImg(this.src)">
+        </div>
+    <script>
+        var fullImgBox = document.getElementById("fullImgBox")
+        var fullImg = document.getElementById("fullImg")
+
+        function openFullImg(pic){
+            fullImgBox.style.display= "flex";
+            fullImg.src = pic;
+        }
+        function closeFullImg(){
+            fullImgBox.style.display = "none";
+        }
+    </script>
+    </section>
+
+    <!--------Foooter-->
+    <section>
+        <section class="footer">
+            <h4>About us</h4>
+            <p>RSF is a Christian-based academy, and our name stands for "The Righteous Shall Live by Faith." This means that those who follow God's teachings and trust in His promises will live a life of faith and receive spiritual growth and eternal salvation. While we welcome and respect people of all religions, RSF is proudly Black-owned and recognized as a Level 1 contributor under the B-BBEE system.</p>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    
+                </div>
+                <div>
+                    <p>Whispers of the unknown <i class="fa-solid fa-block-question"></i> <br>  <i class="fa-solid fa-block-question"> Kraya007 was here
+                    </i></p>
+                </div>
+        </section>
+    </section>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('nav-links');
+            if (navLinks.style.display === 'block') {
+                navLinks.style.display = 'none';
+            } else {
+                navLinks.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
