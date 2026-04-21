@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "description": "RSF Tutorials — Top-Rated Tutoring Excellence in Soweto",
   "scripts": {
-    "build": "echo 'Static site — no build step needed'"
+    "build": "mkdir -p dist && cp *.html *.css *.xml *.txt CNAME dist/ 2>/dev/null; cp -r images dist/"
   }
 }
