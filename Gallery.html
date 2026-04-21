@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse photos of RSF Tutorials — our learners, tutors, branches, and events in Protea Glen, Soweto.">
+    <meta name="theme-color" content="#060d1a">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://rsftutorials.co.za/Gallery.html">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Gallery — RSF Tutorials">
+    <meta property="og:description" content="Browse photos of RSF Tutorials — our learners, tutors, branches, and events in Protea Glen, Soweto.">
+    <meta property="og:image" content="https://rsftutorials.co.za/images/rsf_logo_enhanced.jpg">
+    <meta property="og:url" content="https://rsftutorials.co.za/Gallery.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="RSF Tutorials">
+    <meta name="twitter:card" content="summary">
+
+    <title>Gallery — RSF Tutorials</title>
+    <link rel="icon" type="image/png" href="images/rsf_logo_enhanced.jpg">
+    <link rel="preload" href="style.css" as="style">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Nanum+Gothic:wght@400;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"></noscript>
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+    <!-- Sub Header -->
+    <section class="sub-header" role="banner">
+        <div class="floating-orbs" aria-hidden="true">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+        </div>
+        <div class="container" id="navbar">
+            <div class="logo">
+                <img src="images/rsf_logo_enhanced.jpg" alt="RSF Tutorials Logo" width="70" height="70">
+            </div>
+            <nav aria-label="Main navigation">
+                <div class="menu-icon" onclick="toggleMenu()" aria-label="Toggle menu" role="button" tabindex="0">&#9776;</div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="text-box">
+            <h1>Our Gallery</h1>
+        </div>
+    </section>
+
+    <main id="main-content">
+        <!-- Lightbox with Navigation -->
+        <div class="full-img" id="fullImgBox" role="dialog" aria-label="Image viewer" aria-modal="true">
+            <img src="images/teacher1.jpg" id="fullImg" alt="Full size image">
+            <span class="close-btn" onclick="closeFullImg()" role="button" aria-label="Close image" tabindex="0">✕</span>
+            <span class="lightbox-nav lightbox-prev" onclick="navigateImg(-1)" role="button" aria-label="Previous image" tabindex="0">&#10094;</span>
+            <span class="lightbox-nav lightbox-next" onclick="navigateImg(1)" role="button" aria-label="Next image" tabindex="0">&#10095;</span>
+            <div class="lightbox-counter" id="lightboxCounter"></div>
+        </div>
+
+        <!-- Photo Gallery -->
+        <div class="img-gallery" role="region" aria-label="Photo gallery">
+            <img src="images/add0.jpeg" alt="RSF Tutorials event" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/mudau.jpeg" alt="Ms Mudau" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/mpfuni.jpg" alt="Ms Mpfuni" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/teacher2.jpg" alt="RSF Tutor in classroom" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/teacher4.jpg" alt="RSF Tutor teaching" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/teacher3.jpg" alt="RSF Tutor with students" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/add2.jpeg" alt="RSF Tutorials activity" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/add3.jpeg" alt="RSF Tutorials activity" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/add4.jpeg" alt="RSF Tutorials activity" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/add5.jpeg" alt="RSF Tutorials activity" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/add6.jpeg" alt="RSF Tutorials activity" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/add7.jpeg" alt="RSF Tutorials activity" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/add8.jpeg" alt="RSF Tutorials activity" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/add9.jpeg" alt="RSF Tutorials activity" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/add10.jpeg" alt="RSF Tutorials activity" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/add11.jpeg" alt="RSF Tutorials activity" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/add12.jpeg" alt="RSF Tutorials activity" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/add13.jpeg" alt="RSF Tutorials activity" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/teache22.jpeg" alt="RSF Tutor" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/add15.jpeg" alt="RSF Tutorials activity" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/add16.jpeg" alt="RSF Tutorials activity" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/afterT.jpeg" alt="RSF Tutorials staff" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/WhatsApp Image 2025-03-13 at 1.06.13 PM.jpeg" alt="RSF Tutorials event" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/WhatsApp Image 2025-03-13 at 1.06.14 PM.jpeg" alt="RSF Tutorials event" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/WhatsApp Image 2025-03-13 at 1.06.15 PM.jpeg" alt="RSF Tutorials event" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/WhatsApp Image 2025-03-13 at 1.06.17 PM.jpeg" alt="RSF Tutorials event" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/WhatsApp Image 2025-03-13 at 1.06.18 PM.jpeg" alt="RSF Tutorials event" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/WhatsApp Image 2025-03-13 at 1.06.19 PM.jpeg" alt="RSF Tutorials event" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/WhatsApp Image 2025-03-13 at 1.06.22 PM.jpeg" alt="RSF Tutorials event" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/WhatsApp Image 2025-03-13 at 1.06.21 PM.jpeg" alt="RSF Tutorials event" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/WhatsApp Image 2025-03-13 at 1.06.23 PM.jpeg" alt="RSF Tutorials event" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/WhatsApp Image 2025-03-13 at 1.06.26 PM (1).jpeg" alt="RSF Tutorials event" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/WhatsApp Image 2025-03-13 at 1.06.25 PM (1).jpeg" alt="RSF Tutorials event" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/add17.jpeg" alt="RSF Tutorials activity" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/add18.jpeg" alt="RSF Tutorials activity" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/add19.jpeg" alt="RSF Tutorials activity" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/add120.jpeg" alt="RSF Tutorials activity" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/add22.jpeg" alt="RSF Tutorials activity" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/add24.jpeg" alt="RSF Tutorials activity" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/add25.jpeg" alt="RSF Tutorials activity" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/gallery1.jpg" alt="RSF Gallery photo" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/gallery2.jpg" alt="RSF Gallery photo" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/gallery3.jpg" alt="RSF Gallery photo" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/gallery4.jpg" alt="RSF Gallery photo" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/gallery5.jpeg" alt="RSF Gallery photo" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/gallery6.jpeg" alt="RSF Gallery photo" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/gallery7.jpeg" alt="RSF Gallery photo" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/gallery9.jpeg" alt="RSF Gallery photo" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/gallery10.jpeg" alt="RSF Gallery photo" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/ggallery11.jpeg" alt="RSF Gallery photo" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/gallery12.jpeg" alt="RSF Gallery photo" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/gallery20.jpeg" alt="RSF Gallery photo" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/gallery21.jpeg" alt="RSF Gallery photo" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/gallery22.jpeg" alt="RSF Gallery photo" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/wards1.jpeg" alt="RSF Awards ceremony" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/wards3.jpeg" alt="RSF Awards ceremony" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/wards4.jpeg" alt="RSF Awards ceremony" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+            <img src="images/wards5.jpeg" alt="RSF Awards ceremony" loading="lazy" decoding="async" onclick="openFullImg(this.src)">
+        </div>
+    </main>
+
+    <!-- TikTok Video Section -->
+    <section class="video-section reveal" aria-labelledby="gallery-video-heading">
+        <h1 id="gallery-video-heading">Featured Video</h1>
+        <p>Check out our latest TikTok highlights from RSF Tutorials!</p>
+        <div class="video-container">
+            <div class="video-card reveal-child">
+                <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@rsftutorialssouthafrica/video/7544495957958855943" data-video-id="7544495957958855943" style="max-width:605px;min-width:325px;">
+                    <section></section>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h4>About Us</h4>
+        <p>RSF is a Christian-based academy, and our name stands for "The Righteous Shall Live by Faith." This means that those who follow God's teachings and trust in His promises will live a life of faith and receive spiritual growth and eternal salvation. While we welcome and respect people of all religions, RSF is proudly Black-owned and recognized as a Level 1 contributor under the B-BBEE system.</p>
+        <div class="icons" aria-label="Social media links">
+            <a href="https://www.facebook.com/p/RSF-Tutorial-Saturday-School-100087903162346/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.tiktok.com/@rsftutorialssouthafrica" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+                <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/rsftutorials/?hl=en" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/rsf-tutorials/about/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        // Lightbox with Navigation
+        const fullImgBox = document.getElementById('fullImgBox');
+        const fullImg = document.getElementById('fullImg');
+        const counter = document.getElementById('lightboxCounter');
+        const galleryImages = document.querySelectorAll('.img-gallery img');
+        let currentIndex = 0;
+
+        function openFullImg(pic) {
+            currentIndex = Array.from(galleryImages).findIndex(img => img.src === pic);
+            if (currentIndex === -1) currentIndex = 0;
+            fullImgBox.style.display = 'flex';
+            fullImg.src = pic;
+            updateCounter();
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeFullImg() {
+            fullImgBox.style.display = 'none';
+            document.body.style.overflow = '';
+        }
+
+        function navigateImg(direction) {
+            currentIndex = (currentIndex + direction + galleryImages.length) % galleryImages.length;
+            fullImg.src = galleryImages[currentIndex].src;
+            fullImg.style.animation = 'none';
+            fullImg.offsetHeight; // trigger reflow
+            fullImg.style.animation = 'scaleIn 0.25s ease-out';
+            updateCounter();
+        }
+
+        function updateCounter() {
+            counter.textContent = (currentIndex + 1) + ' / ' + galleryImages.length;
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (fullImgBox.style.display === 'flex') {
+                if (e.key === 'Escape') closeFullImg();
+                if (e.key === 'ArrowLeft') navigateImg(-1);
+                if (e.key === 'ArrowRight') navigateImg(1);
+            }
+        });
+
+        // Close on background click
+        fullImgBox.addEventListener('click', (e) => {
+            if (e.target === fullImgBox) closeFullImg();
+        });
+
+        // Nav button keyboard support
+        document.querySelectorAll('.lightbox-nav').forEach(btn => {
+            btn.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    btn.click();
+                }
+            });
+        });
+
+        // Scroll Reveal
+        const revealObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+        document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+        // Sticky Navigation
+        const navContainer = document.querySelector('.container');
+        let ticking = false;
+        window.addEventListener('scroll', () => {
+            if (!ticking) {
+                requestAnimationFrame(() => {
+                    navContainer.classList.toggle('scrolled', window.scrollY > 80);
+                    ticking = false;
+                });
+                ticking = true;
+            }
+        }, { passive: true });
+
+        function toggleMenu() {
+            const navLinks = document.getElementById('nav-links');
+            navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+        }
+
+        document.querySelector('.menu-icon').addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleMenu(); }
+        });
+    </script>
+    <script async src="https://www.tiktok.com/embed.js"></script>
+</body>
+</html>

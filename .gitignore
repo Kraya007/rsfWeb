@@ -1,0 +1,16 @@
+# Saved web page artifacts (junk)
+images/*.html
+images/*.htm
+images/*_files/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# SSH keys (security)
+123
+123.pub
+
+# Encrypted files
+*.enc
